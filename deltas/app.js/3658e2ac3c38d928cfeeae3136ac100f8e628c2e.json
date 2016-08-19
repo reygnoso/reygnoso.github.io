@@ -1,0 +1,1 @@
+["function _16b39563e412af93cc83ec33aab10640ecc686ef",50,501016,"generaEventos()",501107,1271,"function generaEventos(){console.log(\"llamando a genera eventos . . .\");Ext.Ajax.request({url:\"http://somosredhidalgo.com/\",method:\"POST\",params:{funcion:\"ObtenerEventosNew\"},callback:function(b,c,a){console.log(a.responseText);return a.responseText}})};"]
